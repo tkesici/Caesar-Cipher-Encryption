@@ -18,8 +18,10 @@ public class CaesarCipher {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
+                
                  CaesarForm f = new CaesarForm();
                  f.setVisible(true);
+                
             }
         });
     }
